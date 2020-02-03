@@ -2,7 +2,7 @@ import requests
 from bot_class import *
 
 def main():
-    tgbot = bot("956850095:AAECJIwU8DsMfQ-yHTZQduEALwgv1RZmKoo")
+    tgbot = Bot("956850095:AAECJIwU8DsMfQ-yHTZQduEALwgv1RZmKoo")
     new_offset = None
     
     while True:
