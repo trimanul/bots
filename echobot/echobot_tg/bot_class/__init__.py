@@ -1,6 +1,6 @@
 import requests
 
-class bot(object):
+class Bot(object):
     """ Telegram bot HTTP-request connection object """
 
     def __init__(self, token):
