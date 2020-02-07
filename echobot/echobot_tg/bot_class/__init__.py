@@ -15,7 +15,6 @@ class Bot(object):
         return updates
 
     def get_latest_update(self, updates):
-        """Get latest update"""
         return updates[-1]
         
 
