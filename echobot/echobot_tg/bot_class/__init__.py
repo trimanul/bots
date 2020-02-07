@@ -42,7 +42,7 @@ class Bot(object):
         return response
 
     def msg_check(self, update):
-        """Check for sticker or text message and returns string based on check"""
+        """Check for sticker or text message and return string based on check"""
         try:
             self.get_latest_text(update)
         except KeyError:
