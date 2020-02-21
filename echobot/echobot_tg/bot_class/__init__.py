@@ -1,7 +1,7 @@
 import requests
 
 class Bot(object):
-    """ Telegram bot HTTP-request object """
+    """ Telegram bot object """
 
     def __init__(self, token):
         self.url = f"https://api.telegram.org/bot{token}/"
