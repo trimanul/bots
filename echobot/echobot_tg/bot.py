@@ -2,7 +2,7 @@ import requests
 from bot_class import *
 
 def main():
-    tgbot = Bot("TOKEN")
+    tgbot = Bot("//TOKEN//") #insert your Telegram bot token
     new_offset = None
     
     while True:
@@ -36,7 +36,7 @@ if __name__ == '__main__':
     try:
         main()
     except KeyboardInterrupt:
-        raise SystemExit
+        quit()
 
 
 
